@@ -116,18 +116,18 @@
 // });
 
 // export default App;
- import { Text, View } from 'react-native'
- import React, { Component } from 'react'
- import GoogleSingnIn from './components/googleAuth/GoogleSignIn';
-import Biometrics from './components/biometrics/Biometrics';
- 
- export default class App extends Component {
-   render() {
-     return (
-       <View>
-         {/* <GoogleSingnIn/> */}
-         <Biometrics/>
-       </View>
-     )
-   }
- }
+import {Text, View} from 'react-native';
+import React, {Component} from 'react';
+import GoogleSingnIn from './components/googleAuth/GoogleSignIn';
+import SetBiometrics from './components/biometrics/Biometrics';
+
+export default class App extends Component {
+  render() {
+    return (
+      <View>
+        {/* <GoogleSingnIn/> */}
+        <SetBiometrics />
+      </View>
+    );
+  }
+}
