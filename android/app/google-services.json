@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "438674749734",
+    "project_id": "demosignin-fbbcf",
+    "storage_bucket": "demosignin-fbbcf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438674749734:android:660b75e7e8c48a4cbee9e7",
+        "android_client_info": {
+          "package_name": "com.demo_sign_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438674749734-9kq6r8dnnut90ssr4ho63aqmgpb8d0bd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzFpeocWNTzt1yk_19uoB6bKGjB-2n4fg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "438674749734-9kq6r8dnnut90ssr4ho63aqmgpb8d0bd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
