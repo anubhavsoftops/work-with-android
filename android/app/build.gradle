@@ -1,7 +1,8 @@
+
 apply plugin: "com.android.application"
 apply plugin: "com.facebook.react"
 // firebase 
-apply plugin: 'com.android.application'
+// apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services' // <- Add this line
 
 /**
@@ -111,6 +112,8 @@ dependencies {
     implementation("com.facebook.react:react-android")
      // Import the Firebase BoM
 //   implementation(platform("com.google.firebase:firebase-bom:32.2.3"))
+    //  implementation platform("com.google.firebase:firebase-bom:32.2.3")
+    implementation 'com.google.firebase:firebase-messaging:23.0.0' // Use the latest version
 
 
   // TODO: Add the dependencies for Firebase products you want to use
